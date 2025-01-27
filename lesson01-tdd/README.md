@@ -4,6 +4,14 @@
 
 Imagine you are asked to build a frying pan. What kind of requirements would you want to include? How would make sure that the pan meets the requirements?
 
+"The requirements I would have for a frying pan are
+1) Steel
+2) Non-stick coating
+3) Steel base
+4) Steel Handle with non-heat grip
+5) Maybe (induction bottom)
+"
+
 ## Lecture Content (20 minutes)
 
 ### What is TDD?

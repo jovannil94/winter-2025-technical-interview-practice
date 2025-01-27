@@ -11,7 +11,14 @@
  * @returns {boolean} - True if the string is a palindrome, false otherwise.
  */
 function isPalindrome(str) {
-  // your code here
+  let cleanString = str.replace(/[^a-z]/gi, '').toLowerCase();
+  let reverseString = '';
+  
+  for(let i = cleanString.length-1; i >= 0; i--) {
+    reverseString += cleanString[i];
+  }
+
+  return cleanString === reverseString
 }
 
 module.exports = isPalindrome;
